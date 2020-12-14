@@ -6,7 +6,7 @@ app = Flask(__name__)
 def home():
     return "Hello, world!" 
 
-app.run(port=5000)
+app.run()
 
 
 
